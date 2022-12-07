@@ -5,8 +5,7 @@ Imports System.Linq
 Imports System.Web
 Imports System.Web.UI
 Imports System.Web.UI.WebControls
-Imports DevExpress.Web.ASPxEditors
-Imports DevExpress.Web.ASPxCallbackPanel
+Imports DevExpress.Web
 
 Partial Public Class _Default
 	Inherits System.Web.UI.Page
@@ -16,7 +15,7 @@ Partial Public Class _Default
 
 	End Sub
 
-	Protected Sub ASPxCallbackPanelDemo_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.ASPxClasses.CallbackEventArgsBase)
+	Protected Sub ASPxCallbackPanelDemo_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		Dim callbackPanel As ASPxCallbackPanel = CType(sender, ASPxCallbackPanel)
 		Dim isValid As Boolean = ASPxEdit.ValidateEditorsInContainer(callbackPanel)
 	End Sub

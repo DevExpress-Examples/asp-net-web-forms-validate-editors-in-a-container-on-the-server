@@ -4,8 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using DevExpress.Web.ASPxEditors;
-using DevExpress.Web.ASPxCallbackPanel;
+using DevExpress.Web;
 
 public partial class _Default : System.Web.UI.Page {
 
@@ -14,7 +13,7 @@ public partial class _Default : System.Web.UI.Page {
 
     }
 
-    protected void ASPxCallbackPanelDemo_Callback (object sender, DevExpress.Web.ASPxClasses.CallbackEventArgsBase e) {
+    protected void ASPxCallbackPanelDemo_Callback (object sender, DevExpress.Web.CallbackEventArgsBase e) {
         ASPxCallbackPanel callbackPanel = (ASPxCallbackPanel)sender;
         bool isValid = ASPxEdit.ValidateEditorsInContainer(callbackPanel);
     }
