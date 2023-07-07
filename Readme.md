@@ -12,7 +12,7 @@ This example demonstrates how to validate visible [DevExpress Data Editors](http
 
 ![Validate Editors in a Container](image.png)
 
-Pass a container to the [ASPxEdit.ValidateEditorsInContainer](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxEdit.ValidateEditorsInContainer(System.Web.UI.Control)) method to validate all visible editors in this container. To check the whether editors are valid, call the [ASPxEdit.AreEditorsValid](https://docs.devexpress.com/AspNet/devexpress.web.aspxedit.areeditorsvalid.overloads) or [ASPxClientEdit.AreEditorsValid](https://docs.devexpress.com/AspNet/js-ASPxClientEdit.AreEditorsValid.static) method. 
+Pass a container to the [ASPxEdit.ValidateEditorsInContainer](https://docs.devexpress.com/AspNet/DevExpress.Web.ASPxEdit.ValidateEditorsInContainer(System.Web.UI.Control)) method to validate all visible editors in this container. To check whether editors are valid, call the [ASPxEdit.AreEditorsValid](https://docs.devexpress.com/AspNet/devexpress.web.aspxedit.areeditorsvalid.overloads) or [ASPxClientEdit.AreEditorsValid](https://docs.devexpress.com/AspNet/js-ASPxClientEdit.AreEditorsValid.static) method. 
 
 ## Files to Review
 
