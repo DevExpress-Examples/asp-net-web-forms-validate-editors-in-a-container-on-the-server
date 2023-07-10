@@ -5,7 +5,7 @@
 <!-- default badges end -->
 # ASP.NET Web Forms Editors - How to validate editors in a container on the server
 <!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/e3633/)**
+**[[Run Online]](https://codecentral.devexpress.com/128532198/)**
 <!-- run online end -->
 
 This example demonstrates how to validate visible [DevExpress Data Editors](https://docs.devexpress.com/AspNet/7897/components/data-editors) in a container.
