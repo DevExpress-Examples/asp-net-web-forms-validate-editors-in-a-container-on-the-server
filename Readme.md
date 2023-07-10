@@ -2,7 +2,7 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E3633)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-# ASP.NET Web Form Editors - How to validate editors in a container on the server
+# ASP.NET Web Forms Editors - How to validate editors in a container on the server
 <!-- run online -->
 **[[Run Online]](https://codecentral.devexpress.com/e3633/)**
 <!-- run online end -->
@@ -24,5 +24,5 @@ Pass a container to the [ASPxEdit.ValidateEditorsInContainer](https://docs.devex
 
 ## More Examples
 
-* [ASP.NET Web Form Editors - How to check the validation state of editors](https://github.com/DevExpress-Examples/how-to-check-the-validation-state-of-editors-using-the-areeditorsvalid-method-e1844)
+* [ASP.NET Web Forms Editors - How to check the validation state of editors](https://github.com/DevExpress-Examples/how-to-check-the-validation-state-of-editors-using-the-areeditorsvalid-method-e1844)
 * [ASP.NET Web Forms Editors - How to raise validation on the client](https://github.com/DevExpress-Examples/asp-net-web-forms-editors-client-side-validation)
