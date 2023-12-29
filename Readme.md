@@ -10,9 +10,6 @@
 * [Default.aspx.cs](./CS/WebSite/Default.aspx.cs) (VB: [Default.aspx.vb](./VB/WebSite/Default.aspx.vb))
 <!-- default file list end -->
 # How to validate editors in the container on the server side
-<!-- run online -->
-**[[Run Online]](https://codecentral.devexpress.com/128532198/)**
-<!-- run online end -->
 
 
 <p>The current version of ASP.NET controls doesn't allow you to set the <a href="http://msdn.microsoft.com/en-us/library/system.web.ui.page.isvalid.aspx"><u>Page.IsValid</u></a> property programmatically to validate our editors. However, it is possible to use the following static methods for this purpose: <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxEditorsASPxEdit_AreEditorsValidtopic"><u>ASPxEdit.AreEditorsValid</u></a> and <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxEditorsScriptsASPxClientEdit_AreEditorsValidtopic"><u>ASPxClientEdit.AreEditorsValid</u></a> methods, as it is illustrated in the <a href="https://www.devexpress.com/Support/Center/p/E1844">E1844</a> example. Another  solution is to use the <a href="http://documentation.devexpress.com/#AspNet/DevExpressWebASPxEditorsASPxEdit_ValidateEditorsInContainertopic"><u>ASPxEdit.ValidateEditorsInContainer</u></a> method. Note that it re-runs validation for each control even if a given control has already been validated. </p><p><strong>See also:</strong><br />
