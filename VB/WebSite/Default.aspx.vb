@@ -16,7 +16,8 @@ Partial Public Class _Default
 
 	Protected Sub ASPxCallbackPanelDemo_Callback(ByVal sender As Object, ByVal e As DevExpress.Web.CallbackEventArgsBase)
 		Dim callbackPanel As ASPxCallbackPanel = DirectCast(sender, ASPxCallbackPanel)
-		Dim isValid As Boolean = ASPxEdit.ValidateEditorsInContainer(callbackPanel)
+'INSTANT VB NOTE: The variable isValid was renamed since Visual Basic does not handle local variables named the same as class members well:
+		Dim isValid_Conflict As Boolean = ASPxEdit.ValidateEditorsInContainer(callbackPanel)
 	End Sub
 	Protected Sub ASPxTextBoxTest_Validation(ByVal sender As Object, ByVal e As ValidationEventArgs)
 		Dim txt As ASPxTextBox = TryCast(sender, ASPxTextBox)
